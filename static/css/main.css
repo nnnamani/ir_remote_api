@@ -1,0 +1,29 @@
+@media screen and (min-width:320px) {
+    div#app .container {
+	width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    div#app .container {
+	width: 50%;
+    }
+
+}
+
+div#app .container {
+    margin: 0 auto;
+}
+
+div#app .container h1 {
+    border-bottom: solid 1px;
+}
+
+div#app .container button {
+    display: block;
+    margin: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+}
